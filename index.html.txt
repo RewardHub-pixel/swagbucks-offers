@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Save Money with Swagbucks</title>
+
+<style>
+:root {
+--primary: #2e7d32;
+--bg: #f7f9fb;
+--card: #ffffff;
+--text: #111;
+--muted: #555;
+}
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Arial, sans-serif;
+}
+
+body {
+min-height: 100vh;
+background: var(--bg);
+display: flex;
+align-items: center;
+justify-content: center;
+color: var(--text);
+padding: 16px;
+}
+
+.container {
+width: 100%;
+max-width: 420px;
+}
+
+.card {
+background: var(--card);
+border-radius: 18px;
+padding: clamp(20px, 4vw, 28px);
+box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.flag {
+font-size: 14px;
+font-weight: 600;
+color: var(--muted);
+margin-bottom: 8px;
+text-align: center;
+}
+
+h1 {
+font-size: clamp(22px, 5vw, 28px);
+margin-bottom: 10px;
+text-align: center;
+}
+
+.subtitle {
+font-size: clamp(14px, 3.5vw, 16px);
+color: var(--muted);
+margin-bottom: 16px;
+text-align: center;
+line-height: 1.4;
+}
+
+.hero-image {
+width: 100%;
+height: auto;
+max-height: 260px;
+object-fit: contain;
+border-radius: 14px;
+margin: 14px 0 20px;
+display: block;
+}
+
+.badges {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 8px;
+margin-bottom: 20px;
+}
+
+.badge {
+background: #eef3f8;
+font-size: 12px;
+padding: 6px 12px;
+border-radius: 999px;
+font-weight: 600;
+color: #333;
+}
+
+.steps {
+margin: 20px 0;
+}
+
+.step {
+display: flex;
+align-items: flex-start;
+gap: 8px;
+margin-bottom: 12px;
+font-size: 14px;
+}
+
+.step span {
+font-weight: 700;
+color: var(--primary);
+min-width: 18px;
+}
+
+.cta-btn {
+display: block;
+width: 100%;
+text-align: center;
+background: var(--primary);
+color: #fff;
+text-decoration: none;
+font-size: clamp(16px, 4vw, 18px);
+font-weight: 700;
+padding: 16px;
+border-radius: 14px;
+margin: 22px 0 10px;
+box-shadow: 0 6px 16px rgba(46,125,50,0.3);
+transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.cta-btn:hover {
+transform: translateY(-2px);
+box-shadow: 0 10px 26px rgba(46,125,50,0.4);
+}
+
+.secure {
+font-size: 12px;
+color: #666;
+text-align: center;
+margin-bottom: 18px;
+}
+
+.benefits {
+margin-top: 16px;
+font-size: 14px;
+}
+
+.benefit {
+margin-bottom: 10px;
+line-height: 1.4;
+}
+
+.benefit strong {
+color: var(--primary);
+}
+
+footer {
+margin-top: 22px;
+font-size: 11px;
+color: #777;
+line-height: 1.5;
+text-align: center;
+}
+
+@media (min-width: 768px) {
+body {
+padding: 40px;
+}
+
+.container {
+max-width: 460px;
+}
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+<div class="card">
+
+<div class="flag">🇺🇸 United States Only</div>
+
+<h1>Save Money with Swagbucks!</h1>
+
+<p class="subtitle">
+Enter your information now to get started.
+Compatible with Apple iOS devices.
+</p>
+
+<img
+src="assets/hero.png"
+alt="Save Money with Swagbucks"
+class="hero-image"
+/>
+
+<div class="badges">
+<div class="badge">Apple iOS</div>
+<div class="badge">Free to Join</div>
+<div class="badge">US Residents</div>
+</div>
+
+<div class="steps">
+<div class="step"><span>1.</span><div>Click the button below to begin.</div></div>
+<div class="step"><span>2.</span><div>Enter your Email & ZIP Code to verify location.</div></div>
+<div class="step"><span>3.</span><div>Complete the process on your iOS device.</div></div>
+</div>
+
+<a class="cta-btn" href="https://singingfiles.com/show.php?l=0&u=2412728&id=73923">
+Get Started
+</a>
+
+<div class="secure">🔒 Secure submission · No spam</div>
+
+<div class="benefits">
+<div class="benefit"><strong>💰 Earn & Save:</strong> Rewards for everyday online actions.</div>
+<div class="benefit"><strong>🎁 Cash & Gift Cards:</strong> Flexible redemption options.</div>
+<div class="benefit"><strong>⚡ Fast:</strong> Takes less than a minute.</div>
+<div class="benefit"><strong>🆓 Free:</strong> No purchase required.</div>
+</div>
+
+<footer>
+Disclaimer: This is a third-party promotional offer. We are not affiliated with Swagbucks or its parent company.
+Participation and rewards may vary. No purchase required. Terms and conditions apply.
+</footer>
+
+</div>
+</div>
+</body>
+</html>
